@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Scramble & Gamble</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #fff;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    header {
+      border-bottom: 3px solid #2d7a3a;
+      padding-bottom: 24px;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #2d7a3a;
+      margin-bottom: 6px;
+    }
+    header p {
+      color: #666;
+      font-size: 0.95rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 36px 0 12px;
+      color: #1a1a1a;
+    }
+    p { margin-bottom: 14px; }
+    ul {
+      margin: 10px 0 14px 22px;
+    }
+    ul li { margin-bottom: 6px; }
+    a { color: #2d7a3a; }
+    .contact-box {
+      background: #f5f9f5;
+      border: 1px solid #c8e0cb;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-top: 40px;
+    }
+    .contact-box p { margin: 0; }
+    footer {
+      margin-top: 60px;
+      font-size: 0.85rem;
+      color: #999;
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Privacy Policy</h1>
+    <p><strong>Scramble &amp; Gamble</strong> &nbsp;|&nbsp; Last updated: April 2, 2026</p>
+  </header>
+
+  <p>
+    Scramble &amp; Gamble ("the App") is a golf trip scoring and wagering app designed for use
+    among friend groups. This Privacy Policy explains what information we collect, how we use it,
+    and your rights regarding that information. We take your privacy seriously and have designed
+    the App to collect only what is necessary to make it work.
+  </p>
+
+  <h2>1. Information We Collect</h2>
+  <p>We collect the following types of information when you use the App:</p>
+  <ul>
+    <li>
+      <strong>Account Information:</strong> Your email address and display name, collected via
+      Firebase Authentication when you create an account or sign in.
+    </li>
+    <li>
+      <strong>Game Data:</strong> Scores, prize amounts, bingo progress, challenge results, and
+      other gameplay data you enter during use. This data is stored in Google Firestore and is
+      shared only with the other members of your golf group.
+    </li>
+    <li>
+      <strong>Scorecard Images:</strong> If you use the scorecard scanning feature, photos you
+      take are sent to the Anthropic Claude API for optical character recognition (OCR). These
+      images are processed transiently and are not permanently stored by us or by Anthropic.
+    </li>
+  </ul>
+
+  <h2>2. How We Use Your Information</h2>
+  <p>Your information is used solely to operate the App:</p>
+  <ul>
+    <li>To authenticate your identity and maintain your account</li>
+    <li>To store and sync game data in real time across your golf group's devices</li>
+    <li>To process scorecard images via AI-powered OCR</li>
+    <li>To generate in-game AI commentary (Broadcast Booth) using your game data</li>
+  </ul>
+  <p>We do not use your information for advertising, profiling, or any purpose beyond operating the App.</p>
+
+  <h2>3. Information We Do NOT Collect</h2>
+  <ul>
+    <li>Location data</li>
+    <li>Contacts or address book</li>
+    <li>Microphone audio</li>
+    <li>Device identifiers beyond what Firebase uses by default</li>
+    <li>Any analytics beyond basic Firebase usage data</li>
+  </ul>
+
+  <h2>4. Third-Party Services</h2>
+  <p>The App uses the following third-party services, each with their own privacy policies:</p>
+  <ul>
+    <li>
+      <strong>Firebase / Google Firestore</strong> (database and authentication) —
+      <a href="https://firebase.google.com/support/privacy" target="_blank">firebase.google.com/support/privacy</a>
+    </li>
+    <li>
+      <strong>Anthropic Claude API</strong> (scorecard OCR and AI commentary) —
+      <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a>
+    </li>
+    <li>
+      <strong>Expo / EAS</strong> (app build and update delivery) —
+      <a href="https://expo.dev/privacy" target="_blank">expo.dev/privacy</a>
+    </li>
+  </ul>
+
+  <h2>5. Data Sharing</h2>
+  <p>
+    We do not sell, rent, or share your personal information with third parties for commercial
+    purposes. Game data is shared only within your golf group as required to operate the App.
+    The third-party services listed above receive data only as necessary to provide their
+    respective functions.
+  </p>
+
+  <h2>6. Data Retention</h2>
+  <p>
+    Your account and game data are retained in Firestore for as long as your account exists.
+    You may request deletion of your data at any time by contacting us (see below). Scorecard
+    images are processed in real time and are not retained after the OCR process completes.
+  </p>
+
+  <h2>7. Children's Privacy</h2>
+  <p>
+    The App is not directed to children under the age of 17. We do not knowingly collect
+    personal information from anyone under 17. If you believe a minor has provided us with
+    personal information, please contact us and we will delete it promptly.
+  </p>
+
+  <h2>8. Security</h2>
+  <p>
+    We rely on Firebase Authentication and Firestore security rules to protect your data.
+    Access to game data is restricted to authenticated members of the golf group associated
+    with each trip. No system is completely secure, but we take reasonable measures to
+    protect your information.
+  </p>
+
+  <h2>9. Your Rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li>Access the personal data we hold about you</li>
+    <li>Request correction of inaccurate data</li>
+    <li>Request deletion of your account and associated data</li>
+  </ul>
+  <p>To exercise any of these rights, contact us using the information below.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. If we make material changes, we will
+    update the "Last updated" date at the top of this page. Continued use of the App after
+    changes are posted constitutes your acceptance of the updated policy.
+  </p>
+
+  <div class="contact-box">
+    <h2 style="margin-top:0;">11. Contact Us</h2>
+    <p>
+      If you have questions or requests regarding this Privacy Policy, please contact us at:<br/><br/>
+      <strong>Scramble &amp; Gamble Support</strong><br/>
+      GitHub: <a href="https://github.com/jmgregory78/Golf-Buddy-App" target="_blank">github.com/jmgregory78/Golf-Buddy-App</a>
+    </p>
+  </div>
+
+  <footer>
+    &copy; 2026 Scramble &amp; Gamble. All rights reserved.
+  </footer>
+
+</body>
+</html>
